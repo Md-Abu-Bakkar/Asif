@@ -57,13 +57,13 @@
 						{
 							method: 'POST',
 							headers: {
-								Authorization: 'Bearer <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>',
-								'HTTP-Referer': 'https://www.sitename.com',
+								Authorization: 'Bearer <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>',
+								'HTTP-Referer': '👉url',
 								'X-Title': 'SiteName',
 								'Content-Type': 'application/json',
 							},
 							body: JSON.stringify({
-								model: 'deepseek/deepseek-r1:free',
+								model: 'deepseek/deepseek-r1-distill-qwen-32b:free',
 								messages: [{ role: 'user', content: input }],
 							}),
 						},
